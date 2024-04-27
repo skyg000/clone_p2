@@ -1,0 +1,42 @@
+@import url("reset.css");
+@mixin pa{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* ===========================main====================== */
+main{}
+.a_a-1{
+    height: 100%;
+    @include pa();
+    margin: 0 auto;
+
+    .m-con{
+        img{
+            width: 100%;
+        }
+    }
+    /* ============================text========================= */
+    .all-text{
+        width: 100%;
+        position: relative;
+        left: 25%; top: 0;
+        padding-top: 100px;
+        color: rgb(0, 0, 0);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .a-text{
+        
+        h5{
+            padding-bottom: 35px;
+            font-size: 28px;
+        }
+    }
+    .a-text2{  
+        p{
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+}

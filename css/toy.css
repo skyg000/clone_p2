@@ -1,0 +1,247 @@
+@import url("reset.css");
+main {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.name {
+  margin-top: 100px;
+}
+.name h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.name h3 img {
+  width: 14px;
+}
+.name p {
+  font-size: 20px;
+  opacity: 0.4;
+  font-weight: bold;
+}
+
+.web {
+  margin: 40px 0px 70px;
+}
+.web ul {
+  display: flex;
+}
+.web ul li a p {
+  font-size: 16px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.t-img img {
+  width: 100%;
+}
+
+.t-text {
+  margin: 100px 400px;
+  text-align: left;
+}
+.t-text h5 {
+  font-size: 28px;
+  padding-bottom: 70px;
+}
+.t-text p {
+  padding-bottom: 20px;
+}
+
+.t-al {
+  border-top: 1px solid black;
+}
+.t-al h6 {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.t-al .al {
+  margin-bottom: 100px;
+}
+.t-al .al ul {
+  display: flex;
+  overflow: hidden;
+}
+.t-al .al ul li {
+  padding-right: 10px;
+}
+.t-al .al ul li a img {
+  border: 1px solid #e5e7eb;
+  width: 419px;
+  height: 419px;
+}
+.t-al .al ul li a p {
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.t-vid {
+  border-top: 1px solid black;
+}
+.t-vid h5 {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.t-vid .vid {
+  margin-bottom: 100px;
+}
+.t-vid .vid ul {
+  display: flex;
+  overflow: hidden;
+}
+.t-vid .vid ul li {
+  padding-right: 10px;
+}
+.t-vid .vid ul li a img {
+  width: 420px;
+  height: 420px;
+}
+.t-vid .v-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 99;
+}
+.t-vid .v-popup iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+}
+.t-vid .v-popup p {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.concert {
+  border-top: 1px solid black;
+}
+.concert h5 {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.concert .concert1 {
+  margin-bottom: 100px;
+}
+.concert .concert1 ul {
+  display: flex;
+  overflow: hidden;
+}
+.concert .concert1 ul li {
+  padding-right: 10px;
+}
+.concert .concert1 ul li a img {
+  border: 1px solid #e5e7eb;
+  width: 419px;
+  height: 419px;
+}
+.concert .concert1 ul li a h5 {
+  font-weight: 400;
+}
+.concert .concert1 ul li a p {
+  padding-top: 5px;
+  font-size: 12px;
+  color: #999;
+}
+.concert .concert1 .c-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 98;
+}
+.concert .concert1 .c-popup h5 {
+  position: absolute;
+  left: 20px;
+  bottom: 50px;
+  font-size: 18px;
+  color: white;
+}
+.concert .concert1 .c-popup p {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.content {
+  border-top: 1px solid black;
+}
+.content h5 {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.content .c-img {
+  margin-bottom: 100px;
+}
+.content .c-img ul {
+  display: flex;
+  overflow: hidden;
+}
+.content .c-img ul li {
+  padding-right: 10px;
+}
+.content .c-img ul li a img {
+  border: 1px solid #e5e7eb;
+  width: 419px;
+  height: 550px;
+}
+.content .c-img ul li a p {
+  padding-top: 5px;
+  font-size: 12px;
+  color: black;
+}
+.content .c-img .con-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 97;
+}
+.content .c-img .con-popup p {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.backli {
+  text-align: center;
+}
+.backli a {
+  color: #999;
+  font-weight: bold;
+}
+.backli a:hover {
+  color: black;
+}/*# sourceMappingURL=toy.css.map */
