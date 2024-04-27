@@ -1,16 +1,32 @@
 
-let element = document.querySelector('.menu a');
-element.onclick = function(){
-    element.style='color:#fde700'
-};
-
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    freeMode: true,
-    autoplay: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+let swiper = new Swiper(".mySwiper", {
+  spaceBetween: 5,
+  slidesPerView: 4,
+  centeredSlides: false,
+  loop:true,
+  speed:6000,
+  autoplay: {
+  delay:  0,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+                
+                320: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                },
+                
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                },
+                992:{
+                    slidesPerView: 4,
+                    spaceBetween: 10
+                }
+            }
+});
