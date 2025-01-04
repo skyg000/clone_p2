@@ -5,35 +5,40 @@
   padding-left: 100px;
   padding-right: 100px;
 }
-.m-1 .videogrup .video {
+.m-1 .videogrup{
+  height: 63vh;
+}
+.m-1 .video {
   position: relative;
   padding-bottom: 7%;
-}
-.m-1 .videogrup .video .videotum {
   display: flex;
-  justify-content: flex-end;
 }
-.m-1 .videogrup .video .videotum ul {
-  padding: 0 75px 40px;
+.m-1 .video iframe {
+  position: absolute;
+ /*  width: 100%;
+  height: 100%; */
 }
-.m-1 .a-about {
-  width: 100%;
-  font-size: 30px;
-  margin-bottom: 16px;
+.m-1 .videotum{
+    display: flex;
+    justify-content: flex-start;
 }
+.m-1 .videotum > ul > li{display: inline; margin-bottom: 2vh;}
+.m-1 .videotum > ul > li > img{width: 200px; height: 130px; z-index: 1;}
+.introdis {
+  font-size: 30px; font-weight: bold; border: 1px solid white; border-radius: 30px; position: fixed; bottom: 20%;right: 1%; width: 15rem; background-color: #ff04c4;
+  display: flex;justify-content: center;align-items: center; color: rgb(251, 248, 251);height: 70px;
+}
+
+
+
+
 .m-1 .a-about .eno {
   width: 40%;
-  margin-top: 7px;
 }
-.m-1 .a-about .innvationgroup .innvation1 {
-  width: 100%;
-}
-.m-1 .a-about .innvationgroup .innvation2 {
-  width: 100%;
-}
-.m-1 .a-about .innvationgroup .innvation3 {
-  width: 100%;
-}
+.m-1 .a-about .innvationgroup {width: 1510px; }
+.m-1 .a-about .innvationgroup .innvation1 {width: 100%;}
+.m-1 .a-about .innvationgroup .innvation2 {width: 100%;}
+.m-1 .a-about .innvationgroup .innvation3 {  width: 100%;}
 .m-1 .a-about p {
   font-weight: bold;
   opacity: 0.5;
@@ -63,65 +68,189 @@
   background-color: #fde700;
 }
 
-/* ==========================================footer============================ */
-.foot {
+
+
+/* =================================m-2==================================== */
+.m-2 {
   padding-left: 100px;
   padding-right: 100px;
-  width: 100%;
-  height: 100%;
-  background-color: #fafafa;
-  margin-top: 120px;
-  padding: 50px 90px 0px;
+  /* ===================================slide================================ */
 }
-
-.logo2 a img {
-  width: 200px;
-  height: 33px;
+.m-2 .a-artist h4 {
+  font-size: 32px;
+  margin-bottom: 16px;
 }
-
-.add {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  margin: 0 auto;
+.m-2 .a-artist p {
+  font-weight: bold;
+  opacity: 0.5;
 }
-.add h6 {
-  font-size: 16px;
-  margin-bottom: 10px;
+.m-2 .a-artist img {
+  margin-top: 7px;
+  width: 14px;
 }
-.add a {
-  text-decoration: none;
-  color: #bdbec0;
-}
-.add a b:hover {
-  color: rgba(75, 74, 74, 0.65);
-}
-
-.btn2 {
-  margin: 30px 0;
-  border: 1px solid #e5e7eb;
-  background-color: white;
+.m-2 .a-btn1 {
   width: 260px;
+  margin: 70px 0px;
+  padding: 0px;
+  border: 1px solid #e5e7eb;
 }
-.btn2 a {
-  font-size: 14px;
+.m-2 .a-btn1 a {
+  font-size: 16px;
   display: block;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
-.btn2 a i {
-  padding-left: 100px;
-  color: black;
+.m-2 .a-btn1 a i {
+  padding-right: 10px;
+}
+.m-2 .a-btn1:hover {
+  transition: 1s;
+  background-color: #fde700;
+}
+.m-2 .swiper {
+  width: 100%;
+  height: 100%;
+}
+.m-2 .swiper .swiper-wrapper {
+  transition-timing-function: linear;
+}
+.m-2 .swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 16px;
+  background: #fff;
+  /* Center slide text vertically */
+  /* display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex; */
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  position: relative;
+}
+.m-2 .swiper .swiper-wrapper .swiper-slide a img {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+.m-2 .swiper .swiper-wrapper .swiper-slide p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  opacity: 0;
+  transition: 0.5s;
+  background: linear-gradient(0deg, rgb(253, 231, 0) 0%, rgba(253, 231, 0, 0) 100%) !important;
+}
+.m-2 .swiper .swiper-wrapper .swiper-slide p span {
+  display: block;
+  font-size: 16px;
+}
+.m-2 .swiper .swiper-wrapper .swiper-slide:hover p {
+  opacity: 1;
 }
 
-.btn2:hover {
+.btn .swiper-button-next {
+  width: 35px;
+  height: 35px;
+  color: white;
+  border-radius: 50%;
+  background-color: rgba(54, 54, 54, 0.5);
+  transform: translateX(0%);
+}
+.btn .swiper-button-prev {
+  width: 35px;
+  height: 35px;
+  color: white;
+  border-radius: 50%;
+  background-color: rgba(54, 54, 54, 0.5);
+  transform: translateX(-10%);
+}
+.btn .swiper-button-next:after {
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn .swiper-button-prev:after {
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn .swiper-button-next:hover {
+  transition: 1s;
+  background-color: #fde700;
+}
+.btn .swiper-button-prev:hover {
   transition: 1s;
   background-color: #fde700;
 }
 
+/* ===================================slide================================ */
+/* ==========================================footer============================ */
+.foot {
+  width: 100%;
+  height: 100%;
+  margin-top: 120px;
+  display: flex;
+  background-color: #0D1257;
+}
+.row{
+  display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.logo2 a img {
+  margin-right: 40px;
+}
+
+.add {
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+}
+.add a {
+  text-decoration: none;
+  color: #C2C2D6;
+}
+.add a b:hover {
+  color: rgba(75, 74, 74, 0.65);
+}
+.tel{
+  color: #C2C2D6;
+  margin-left: 20px;
+}
+.btn2 {
+  width: 100%;
+  color: #7F7FA4;
+  margin-top: 5px;
+}
+.sns{
+  margin-left: 10em;
+  display: flex;
+}
+.sns .snsicon{    
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;}
+  
 .back {
   display: flex;
   justify-content: end;
@@ -148,7 +277,6 @@
   width: 100%;
   height: 100px;
   padding: 20px 80px;
-  background-color: #fafafa;
 }
 .last h6 {
   font-size: 16px;

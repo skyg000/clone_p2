@@ -6,6 +6,7 @@ $("header").load('./inc.html .head', function(){
 });
 
 $("footer").load('./inc.html .foot,.last', function(){
+    $(this).css('margin-top', '-8.5vh');
     aab();
 });
 
