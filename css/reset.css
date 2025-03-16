@@ -15,7 +15,7 @@ body, p, a, h6,h5,h4, h3,figure {
 /* 20250316 */
 html, body {
 margin: 0;
-background: url(../img/) no-repeat center / cover;
+background: url(../img/year_2013.png) no-repeat center / cover ;
 }
 
 ul, li, ol {
