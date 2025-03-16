@@ -12,10 +12,12 @@
 .m-1 {
     @include pa();
     .videogrup{
+        display: flex        ;
+            justify-content: space-between;
+            margin-top: 9vh;
         .video{
             position: relative;
             padding-bottom: 7%;
-            
         }
     }
     .videotum{
@@ -83,7 +85,7 @@
     @include pa();
     width: 100%;
     height: 100%;
-    background-color: #fafafa;
+    background-color: #111987;
     margin-top: 120px;
     padding: 50px 90px 0px;
 }

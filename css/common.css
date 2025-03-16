@@ -53,64 +53,65 @@ header {
    margin-bottom: 50px;
     border-bottom: 3px solid blue;
   }
-  
+  /* 20250316 */
   .icon {
-    display: flex;
-    justify-content: flex-start;
-    height: 45px;
-    background-color: #111987;
-    width: 100%;
+    width: 70%;
     align-items: center;
     padding-left: 100px;
     height: 100%;
   }
   .icon .ipsi{
     background-color: #dc5d6e;
-    min-width: 185px !important;
+    min-width: 40% !important;
+    height: 8vh;
     padding: 0 1rem;
     display: inline-block;
     text-align: center;
-    margin-right: 10px;
+    margin: 10px;
   }
   .icon .ktcweb{
     background-color: #1a5fa7;
-    min-width: 185px !important;
+    min-width: 40% !important;
+    height: 8vh;
     padding: 0 1rem;
     display: inline-block;
     text-align: center;
-    margin-right: 10px;
-  }
+    margin: 10px;  }
   .icon .bus{
     background-color: #17a2b8;
-    min-width: 185px !important;
+    min-width: 40% !important;
+    height: 8vh;
     padding: 0 1rem;
     display: inline-block;
     text-align: center;
-    margin-right: 10px;
+    margin: 10px;
   }
   .icon .newslink{
     background-color: #e4bb04;
-    min-width: 185px !important;
+    min-width: 40% !important;
+    height: 8vh;
     padding: 0 1rem;
     display: inline-block;
     text-align: center;
-    margin-right: 10px;
+    margin: 10px;
   }
   .icon .ktcfood{
     background-color: #7a81be;
-    min-width: 185px !important;
+    min-width: 40% !important;
+    height: 8vh;
     padding: 0 1rem;
     display: inline-block;
     text-align: center;
-    margin-right: 10px;
+    margin: 10px;
   }
   .icon .senior{
     background-color: #e47304;
-    min-width: 185px !important;
+    min-width: 40% !important;
+    height: 8vh;
     padding: 0 1rem;
     display: inline-block;
     text-align: center;
-    margin-right: 10px;
+    margin: 10px;
   }
   .icon a {
     color: white;
@@ -118,6 +119,7 @@ header {
   }
   .icon p {
     margin: revert;
+    font-size: 24px;
 
   }
   .icon a img {
